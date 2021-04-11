@@ -6,11 +6,11 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            //WindowsVideoPlayer windowsVideoPlayer = new WindowsVideoPlayer();
-            //windowsVideoPlayer.Run();
+            WindowsVideoPlayer windowsVideoPlayer = new WindowsVideoPlayer();
+            windowsVideoPlayer.Run();
 
-            MacVideoPlayer macVideoPlayer = new MacVideoPlayer();
-            macVideoPlayer.Run();
+            //MacVideoPlayer macVideoPlayer = new MacVideoPlayer();
+            //macVideoPlayer.Run();
         }
     }
 }
